@@ -2,21 +2,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TypeScript Tutorial</title>
+  <title>Finance Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div class="wrapper">
+  <header class="wrapper">
     <h1>Finance Logger</h1>
+  </header>
 
-    <!-- output list -->
-    <ul class="item-list">
-      
-    </ul>
-  </div>
-
-  <footer>
+  <main>
     <form class="new-item-form">
       <div class="field">
         <label>Type:</label>
@@ -39,10 +37,18 @@
       </div>
       <button>Add</button>
     </form>
+  </main>
 
-    <a href="https://johnpezza.dev">John Pezza</a>
-  </footer>
+    <section class="wrapper">
+      <!-- output list -->
+      <ul class="item-list"> </ul>
+    </section>
+
+    <footer>
+      <a href="https://johnpezza.dev">John Pezza</a>
+    </footer>
 
   <script type="module" src='app.js'></script>
 </body>
 </html>
+

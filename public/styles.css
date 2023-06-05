@@ -1,14 +1,18 @@
 body{
     margin: 0;
     font-family: Roboto; 
+    background-color: #080854;
+    font-family: 'Playfair';
+    font-weight: 800;
   }
   .wrapper{
     max-width: 960px;
     margin: 0 auto;
   }
   h1{
+    font-size: 2.5rem;
     margin: 40px auto;
-    color: #ff0aa7;
+    color: #bababf;
     text-align: center;
   }
   ul{
@@ -21,15 +25,16 @@ body{
     margin: 10px auto;
   }
   li h4{
-    color: #ff0aa7;
+    color: #bababf;
+    text-decoration: underline;
     margin: 0;
     text-transform: capitalize;
   }
   li p{
-    color: #333;
+    color: white;
     margin: 8px 0 0;
   }
-  footer{
+  main{
     background: #eee;
     padding: 60px;
     margin-top: 60px;
@@ -58,7 +63,7 @@ body{
   button{
     color: white;
     border: 0;
-    background: #ff0aa7;
+    background: #080854;
     padding: 6px;
     min-width: 80px;
     border-radius: 4px;
@@ -68,5 +73,7 @@ body{
     display: block;
     color: #999;
     margin-top: 40px;
-    font-size: 0.7em;
+    font-size: 0.90em;
   }
+
+  
